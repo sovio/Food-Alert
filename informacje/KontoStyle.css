@@ -1,0 +1,159 @@
+
+body {
+    background-image: url("../Images/Screenshot_2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.glowny {
+    background-color: rgba(0,0,0,0.4);
+    margin: 20px  0 0;
+    height: 89%;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+
+.glowny h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.kontener {
+    background-color: rgba(0,0,0,0.6);
+    margin: 0 2% 1% 2%;
+    width: 96%;
+    height: 77%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10 10 0 10;
+    display: table;
+   
+    
+}
+
+.content {
+    margin-top: 2%;
+}
+
+.content h6 {
+    margin-top: 35px;
+    font-size: 30px;
+    
+}
+
+i {
+    margin-right: 10px;
+}
+
+span {
+    font-size: 18px;
+}
+
+.btn-primary {
+    width: 150px;
+    border-radius: 24px;
+    transition: 0.25s;
+    border: 0;
+    background: #A3660B;
+    outline: none;
+    font-size: 20px;
+}
+
+.btn-primary:hover {
+    color: white;
+    text-decoration: none;
+    background: rgb(206, 130, 17);
+}
+
+.btn-primary:focus {
+    color: white;
+    text-decoration: none;
+    background: #A3660B;
+    border: none;
+    outline: none;
+}
+
+.btn-primary:active {
+    color: white;
+    text-decoration: none;
+    background: #A3660B !important;
+    border: none;
+    outline: none;
+}
+
+.btn-secondary {
+    width: 150px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    border: 0;
+    background: #c43631;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-secondary:hover {
+    color: white;
+    text-decoration: none;
+    background: #d9534f;
+}
+
+.btn-secondary:active{
+    color: white;
+    text-decoration: none;
+    background: #af3a36 !important;
+    border: none;
+    outline: none;
+}
+
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+    box-shadow:none;
+}
+
+.email-input {
+    border: 0;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px 10px;
+    width: 80%;
+    outline: none;
+    color: #000000;
+    border-radius: 24px;
+}
+
+.haslo-input {
+    border: 0;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px 10px;
+    width: 60%;
+    outline: none;
+    color: #000000;
+    border-radius: 24px;
+}
+
+
+#email, #haslo, #usun{
+    position:fixed; 
+    left:0;
+    right:0;
+    top:50%;
+    bottom:0;
+    margin:auto;
+  }
+
+  #email-content, #haslo-content, #usuwanie-content {
+    background: rgba(33, 35, 43, 0.9);
+    
+  }
